@@ -348,12 +348,13 @@ A função **main()** é a função principal de um programa Python. É chamado 
 
 :blue_book: <strong><b>82)</b></strong> Write python function which takes a variable number of arguments.
 
-```def my_function(*args):
+```py
+def my_function(*args):
   for arg in args:
     print(arg)
 ```
 
-```
+```py
 my_function(1, 2, 3)
 my_function("hello", "world")
 my_function(True, False, True, False)
@@ -361,7 +362,8 @@ my_function(True, False, True, False)
 
 :blue_book: <strong><b>83)</b></strong> WAP (Write a program) which takes a sequence of numbers and check if all numbers are unique.
 
-```def unique(list1):
+```py
+def unique(list1):
     # intilize a null list
     unique_list = []
     # traverse for all elements
@@ -376,7 +378,8 @@ my_function(True, False, True, False)
 
 :blue_book: <strong><b>84)</b></strong> Write a program for counting the number of every character of a given text file.
 
-```def char_frequency(str1):
+```py
+def char_frequency(str1):
     dict = {}
     for n in str1:
         keys = dict.keys()
@@ -389,7 +392,8 @@ my_function(True, False, True, False)
 
 :blue_book: <strong><b>85)</b></strong> Write a program to check and return the pairs of a given array A whose sum value is equal to a target value N.
 
-```def getPairsCount(arr, n, sum):
+```py
+def getPairsCount(arr, n, sum):
     count = 0  # Initialize result
     # Consider all possible pairs
     # and check their sums
@@ -402,7 +406,8 @@ my_function(True, False, True, False)
 
 :blue_book: <strong><b>86)</b></strong> Write a Program to add two integers >0 without using the plus operator.
 
-```def Add(x, y):
+```py
+def Add(x, y):
     # Iterate till there is no carry
     while (y != 0):
         # carry now contains common
@@ -421,7 +426,8 @@ my_function(True, False, True, False)
 
 :blue_book: <strong><b>87)</b></strong> Write a Program to solve the given equation assuming that a,b,c,m,n,o are constants:
 
-```def solve_eq(a, b, c, m, n, o):
+```py
+def solve_eq(a, b, c, m, n, o):
     x = (m * o - n * c) / (a * n - b * m)
     y = (a * o - b * c) / (m * b - n * a)
     return x, y
@@ -429,7 +435,7 @@ my_function(True, False, True, False)
 
 :blue_book: <strong><b>88)</b></strong> Write a Program to match a string that has the letter ‘a’ followed by 4 to 8 'b’s.
 
-```
+```py
 import re
 
 pattern = r'a[b]{4,8}'
@@ -438,14 +444,14 @@ string = 'abbbb'
 match = re.match(pattern, string)
 
 if match:
-    print('Match found!')
+    print('Não deu match.')
 else:
-    print('No match found.')
+    print('Deu match.')
 ```
 
 :blue_book: <strong><b>89)</b></strong> Write a Program to convert date from yyyy-mm-dd format to dd-mm-yyyy format.
 
-```
+```py
 from datetime import datetime
 
 date_string = '2022-08-31'
@@ -457,7 +463,7 @@ print(new_date_string)
 
 :blue_book: <strong><b>90)</b></strong> Write a Program to combine two different dictionaries. While combining, if you find the same keys, you can add the values of these same keys. Output the new dictionary
 
-```
+```py
 dict1 = {'a': 1, 'b': 2, 'c': 3}
 dict2 = {'b': 3, 'd': 4, 'e': 5}
 
@@ -472,11 +478,12 @@ print(dict1)
 
 :blue_book: <strong><b>91)</b></strong> How will you access the dataset of a publicly shared spreadsheet in CSV format stored in Google Drive?
 
+```
 1. Abra o arquivo do Google Drive em seu navegador.
 2. Clique no menu “Arquivo” e selecione “Download”.
 3. Selecione "Valores separados por vírgula (.csv, planilha atual)" no menu suspenso.
-4. Escolha um local em seu computador para salvar o arquivo CSV e clique em Salvar.
-
+4. Escolha um local em seu computador para salvar o arquivo CSV e clique em “Salvar”.
+```
 # :speaking_head: Part II - Django
 
 :blue_book: <strong><b>1)</b></strong> Explain Django Architecture?
