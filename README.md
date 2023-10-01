@@ -27,7 +27,7 @@ Explicando a estrutura de pastas abordadas no teste:
     - frontendQ&A.md - Respostas do teste teórico.
     - frontEndTest.md - Enunciado do teste prático.
   - javascript
-    Aqui está o projeto do teste prático.
+    - Aqui está o projeto do teste prático.
 
 ### Exercícios Backend
 
