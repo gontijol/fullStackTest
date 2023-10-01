@@ -35,6 +35,8 @@
 
 # Documentação do Desafio Frontend
 
+- Projeto Executado: [![Pratical Test](github.png)](../frontend/)
+
 ## Arquitetura
 
 - Este projeto utiliza o Vite como ferramenta de construção para criar projetos Vue.js.
