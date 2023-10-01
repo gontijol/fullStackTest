@@ -1,4 +1,4 @@
-# FullStack Test - Luigi Gontijo
+## FullStack Test - Luigi Gontijo
 
 Este teste foi realizado para a vaga de FullStack Developer na empresa [**[ouronova]**](https://ouronova.com/empresa/).
 
