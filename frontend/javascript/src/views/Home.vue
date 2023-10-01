@@ -1,7 +1,7 @@
 <template>
-    <div class="container">
+    <body>
         <FileUpload />
-    </div>
+    </body>
 </template>
 
 <script>
@@ -14,6 +14,4 @@ export default {
 };
 </script>
 
-<style scoped>
-/* Estilos Bootstrap personalizados podem ser adicionados aqui */
-</style>
+<style></style>

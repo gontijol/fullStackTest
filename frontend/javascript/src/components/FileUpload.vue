@@ -1,5 +1,6 @@
 <template>
-    <div class="container mt-5">
+    <div class="container-full">
+        <img alt="Ouronova" class="logo" src="@/../../../img/image.png" />
         <div class="row">
             <div class="col-md-6">
                 <h2 class="font-weight-bold">Load File</h2>
@@ -137,12 +138,27 @@ export default {
     gap: 20px;
     margin-top: 20px;
 }
+.form-group {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container-full {
+    width: 100%;
+
+    box-sizing: border-box;
+}
+.form-control {
+    width: 80%;
+}
 
 .file-icon {
     display: flex;
     flex-direction: column;
     align-items: center;
-    cursor: pointer;
 }
 
 .file-icon i {
@@ -153,5 +169,12 @@ export default {
 .sample-datasets button {
     margin-right: 10px;
     margin-bottom: 10px;
+}
+.logo {
+    display: flex;
+    width: 80%;
+    margin: 0 auto 1rem;
+    justify-content: center;
+    align-items: center;
 }
 </style>
