@@ -93,7 +93,6 @@
                 <span class="sample-dataset">Sample Dataset</span>
                 <span> (Requires access to web)</span>
 
-                <!-- Grid de botões de amostras -->
                 <div class="sample-datasets">
                     <button
                         v-for="dataset in sampleDatasets"
@@ -165,35 +164,27 @@ export default {
                 const fileType = `.${file.name.split(".").pop()}`;
                 if (this.supportedFileTypesExtensions.includes(fileType)) {
                     this.selectedFileName = file.name;
-                    // Lógica para carregar o arquivo
                 } else {
-                    // O tipo de arquivo não é suportado, você pode exibir uma mensagem de erro ou rejeitar o arquivo.
                     alert("Tipo de arquivo não suportado.");
-                    // Limpar o valor do input de arquivo
+
                     this.$refs.fileInput.value = "";
                 }
             }
         },
         drop(event) {
-            // Impede o comportamento padrão do navegador para evitar que o arquivo seja aberto no navegador
             event.preventDefault();
 
-            // Obtém a lista de arquivos soltos
             const files = event.dataTransfer.files;
 
-            // Faça algo com os arquivos soltos, como carregá-los ou processá-los
             for (let i = 0; i < files.length; i++) {
                 if (this.files != 0) {
                     const fileType = `.${files[0].name.split(".").pop()}`;
                     if (this.supportedFileTypesExtensions.includes(fileType)) {
                         this.startLoading();
                         this.selectedFileName = files[0].name;
-
-                        // Lógica para carregar o arquivo
                     } else {
-                        // O tipo de arquivo não é suportado, você pode exibir uma mensagem de erro ou rejeitar o arquivo.
                         alert("Tipo de arquivo não suportado.");
-                        // Limpar o valor do input de arquivo
+
                         this.$refs.fileInput.value = "";
                     }
                 }
@@ -227,7 +218,6 @@ export default {
 </script>
 
 <style scoped>
-/* Estilos personalizados podem ser adicionados aqui */
 .file-upload-container {
     border: 2px dashed #ccc;
     padding: 20px;
@@ -362,12 +352,12 @@ export default {
     border-radius: 4px;
     margin: 10px 0;
     position: relative;
-    overflow: hidden; /* Adicione overflow: hidden para esconder a parte da barra de progresso fora da div */
+    overflow: hidden;
 }
 
 .progress-bar {
     height: 100%;
     background-color: #ff0046;
-    transition: width 2s ease-in-out; /* Adicione a transição à propriedade width */
+    transition: width 2s ease-in-out;
 }
 </style>
