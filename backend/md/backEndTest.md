@@ -19,3 +19,7 @@
 ## as filter parameters.
     
 ```
+
+Documentação utilizada:
+
+- https://algotrading101.com/learn/yahoo-finance-api-guide/
