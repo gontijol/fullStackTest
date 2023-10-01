@@ -1,6 +1,6 @@
-<h1 align="right">
-<br>FullStack Test V1.0 Results
-</h1>
+## Respondido em português
+
+Esta versão de respostas foi respondida em português, como a vaga é para o Brasil, acredito que seja mais adequado.
 
 ## 📚 FrontEnd Test Answers
 
