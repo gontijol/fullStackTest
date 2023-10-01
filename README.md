@@ -1,6 +1,6 @@
 ## FullStack Test - Luigi Gontijo
 
-[![ouronova](image.png)](https://ouronova.com/empresa/)
+[![ouronova](img/image.png)](https://ouronova.com/empresa/)
 
 Este teste foi realizado para a vaga de FullStack Developer na empresa ouronova. 
 
