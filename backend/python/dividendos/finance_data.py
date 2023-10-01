@@ -2,7 +2,7 @@ from django.http import JsonResponse
 from django.views import View
 from datetime import datetime
 import requests
-import json  # Import the json module
+import json
 import yfinance as yf
 from .models import DividendoModel
 

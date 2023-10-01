@@ -6,8 +6,6 @@ import json
 from .models import DividendoModel
 from django.db.models import Sum
 
-# Use isso apenas para simplificar a demonstração; considere adicionar autenticação apropriada em um ambiente de produção.
-
 
 @method_decorator(csrf_exempt, name='dispatch')
 class DividendSummaryByYearPOST(View):
