@@ -4,7 +4,7 @@
 
 Este teste foi realizado para a vaga de FullStack Developer na empresa ouronova. 
 
-Fora considerado o tempo de 3 dias para a realização do teste, a resposta segue o padrão do teste.
+Fora considerado o tempo de 3 dias/72 horas para a realização do teste, a resposta segue o padrão do teste.
 
 O teste foi realizado auxílo de consulta em documentações e pesquisas na internet.
 
