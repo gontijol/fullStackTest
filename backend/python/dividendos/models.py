@@ -1,11 +1,11 @@
 from django.db import models
 from yahoo_fin import stock_info
+from datetime import datetime
 
 
-class Dividendo(models.Model):
+class DividendoModel(models.Model):
     symbol = models.CharField(max_length=255)
-    # Você pode definir um valor padrão aqui
-    date = models.DateField(default=None)
+    date = models.DateField()
     amount = models.DecimalField(max_digits=10, decimal_places=2)
 
     def __str__(self):
@@ -13,7 +13,14 @@ class Dividendo(models.Model):
 
 
 def buscar_dividendos(symbol, year):
+    # Get dividend data from yahoo_fin
     dividendos = stock_info.get_dividends(symbol)
-    dividendos_do_ano = [div for div in dividendos if div['Date'].year == year]
+
+    # Filter dividend data for the given year
+    dividendos_do_ano = [div for div in dividendos if datetime.strptime(
+        div['Date'], '%Y-%m-%d').year == year]
+
+    # Calculate the total dividends for the year
     total_dividendos = sum(div['Dividends'] for div in dividendos_do_ano)
+
     return total_dividendos
