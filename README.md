@@ -18,6 +18,27 @@ Liguagens e conceitos abordados no teste:
 - CSS
 - JavaScript
 
+Explicando a estrutura de pastas abordadas no teste:
+  
+### Exercícios Frontend
+
+- Frontend
+  - md
+    - frontendQ&A.md - Respostas do teste teórico.
+    - frontEndTest.md - Enunciado do teste prático.
+  - javascript
+    Aqui está o projeto do teste prático.
+
+### Exercícios Backend
+
+- Backend
+  - md
+    - backendQ&A.md - Respostas do teste teórico.
+    - backEndTest.md - Enunciado do teste prático.
+  - python
+    - Aqui está o projeto do teste prático.
+
+
 ## Respondido em português
 
 Esta versão de respostas foi respondida em português, como a vaga é para o Brasil, acredito que seja mais adequado.
