@@ -10,13 +10,15 @@ O teste foi realizado auxílo de consulta em documentações e pesquisas na inte
 
 As respostas servem também como uma documentação para uma consulta futura, e para facilitar o curto entendimento de python e django.
 
-Liguagens e conceitos abordados no teste:
+Liguagens e tecnologias abordadas no teste:
 
 - Python
 - Django
 - HTML
 - CSS
 - JavaScript
+- VueJS
+- CLEAN Arch
 
 Explicando a estrutura de pastas abordadas no teste:
   
