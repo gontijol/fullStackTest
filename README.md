@@ -1,7 +1,7 @@
 ## FullStack Test - Luigi Gontijo
 
-
 [![ouronova](image.png)](https://ouronova.com/empresa/)
+
 Este teste foi realizado para a vaga de FullStack Developer na empresa ouronova. 
 
 Fora considerado o tempo de 3 dias para a realização do teste, a resposta segue o padrão do teste.
