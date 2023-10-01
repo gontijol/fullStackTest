@@ -23,3 +23,6 @@
 Documentação utilizada:
 
 - https://algotrading101.com/learn/yahoo-finance-api-guide/
+
+
+- Projeto Executado: [![Pratical Test](github.png)](../python/)
