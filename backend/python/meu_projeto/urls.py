@@ -6,5 +6,5 @@ from meu_projeto.views import minha_view
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('dividendos/', include('dividendos.urls')),
-    path('minha_rota/', minha_view),
+
 ]
