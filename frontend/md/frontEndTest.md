@@ -35,7 +35,7 @@
 
 # Documentação do Desafio Frontend
 
-- Projeto Executado: [![Pratical Test](github.png)](../frontend/)
+- Projeto Executado: [![Pratical Test](../../backend/md/github.png)](../javascript/)
 
 ## Arquitetura
 
