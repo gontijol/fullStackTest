@@ -13,8 +13,6 @@
                         >Desafio - Reference 2</RouterLink
                     >
                 </li>
-
-                <!-- Adicione mais links de navegação conforme necessário -->
             </ul>
         </nav>
     </div>
@@ -25,7 +23,6 @@ import { RouterLink } from "vue-router";
 </script>
 
 <style scoped>
-/* Estilos para o menu em tela cheia */
 .fullscreen-menu {
     align-items: center;
     justify-content: center;
@@ -71,3 +68,4 @@ a:hover {
     align-items: center;
 }
 </style>
+
