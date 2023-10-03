@@ -37,6 +37,8 @@
 
 - Projeto Executado: [![Pratical Test](../../backend/md/github.png)](../javascript/)
 
+<video src="Exemplo.mp4" controls title="Title"></video>
+
 ## Arquitetura
 
 - Este projeto utiliza o Vite como ferramenta de construção para criar projetos Vue.js.
