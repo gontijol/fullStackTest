@@ -10,7 +10,7 @@ O teste foi realizado auxílo de consulta em documentações e pesquisas na inte
 
 As respostas servem também como uma documentação para uma consulta futura, e para facilitar o curto entendimento de python e django.
 
-Liguagens e tecnologias abordadas no teste:
+Linguagens e tecnologias abordadas no teste:
 
 - Python
 - Django
