@@ -1,0 +1,7 @@
+*.py linguagem=python
+*.java linguagem=java
+*.dart linguagem=dart
+*.go linguagem=go
+*.js linguagem=vue
+*.css linguagem=vue
+*.html linguagem=vue
